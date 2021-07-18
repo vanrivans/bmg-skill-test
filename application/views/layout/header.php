@@ -10,7 +10,7 @@
 
     <!-- START STYLES -->
 
-    <!-- Bootstrap v5.0.0 -->
+    <!-- Bootstrap v5.0.2 -->
     <link rel="stylesheet" href="<?=base_url();?>assets/bootstrap/css/bootstrap.min.css?v5.0.0">
 
     <!-- Sweetalert2 v10.3.5 -->
@@ -29,7 +29,7 @@
     <!-- jQuery v3.5.1 -->
     <script src="<?=base_url();?>assets/vendor/jquery/jquery-3.5.1.min.js?v3.5.1"></script>
 
-    <!-- Bootstrap v4.5.2 -->
+    <!-- Bootstrap v5.0.2 -->
     <script src="<?=base_url();?>assets/bootstrap/js/bootstrap.min.js?v5.0.0"></script>
 
     <!-- jQuery Validate v1.19.2 -->
