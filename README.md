@@ -1,7 +1,5 @@
 # bmg-skill-test
 
-# bmg-skill-test
-
 PT. BMG INDONESIA
 SKill Test for PHP Developer
 
@@ -12,6 +10,9 @@ SKill Test for PHP Developer
   Ajax/Axios.
 - To display all article data using DataTables (https://datatables.net/).
   DataTables used are required to use server-side processing mode.
+
+Done in time
+17 July 2021 - 18 July 2021
 
 Project Description
 -------------------------------------------------------------------------------------
