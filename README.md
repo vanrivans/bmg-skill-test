@@ -18,15 +18,14 @@
 
 ## Done in time
 
-	23 July 2021 	Developing Front End Web Public
-	22 July 2021 Developing Front End Web Public
-	18 July 2021 Developing Front End & Back End
-	Implementation & Testing
-	17 July 2021 System Analysis and Design
-	Database Design
-	Files
-
----
+	23 July 2021 		Developing Front End Web Public
+	22 July 2021 		Developing Front End Web Public
+	18 July 2021 		Developing Front End & Back End
+				Implementation & Testing
+	17 July 2021		System Analysis and Design
+				Database Design
+				
+## Files
 
     Source codes			./application/
     				./assets/
