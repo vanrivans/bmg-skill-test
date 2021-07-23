@@ -39,7 +39,8 @@ class Article_model extends CI_Model {
                 tag_id,
                 category_id,
                 category.name AS category,
-                JSON_UNQUOTE(JSON_EXTRACT(time_log, '$.updated_time')) AS updated_time
+                JSON_UNQUOTE(JSON_EXTRACT(time_log, '$.updated_time')) AS updated_time,
+                JSON_UNQUOTE(JSON_EXTRACT(time_log, '$.created_time')) AS created_time
                 FROM article 
                 JOIN category ON category.id = article.category_id 
                 WHERE article.id = " . $id;
@@ -60,6 +61,17 @@ class Article_model extends CI_Model {
         return $result;
     }
     // End of function get_data_article
+
+    /**
+     * @return array
+     */
+    public function get_article_asc() {
+
+        $result = $this->db->query("SELECT * FROM article ORDER BY id ASC")->result();
+
+        return $result;
+    }
+    // End of function get_article_asc
 
     /**
      * @param array $data
